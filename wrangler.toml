@@ -1,0 +1,10 @@
+name = "epic-games-bot"
+main = "hg.js"
+compatibility_date = "2024-11-01"
+
+[triggers]
+crons = ["0 18 * * 5"]
+
+[[kv_namespaces]]
+binding = "GAMES_KV"
+id = "c5d748aa6af84fe2a4bdd1595665e9f3"
